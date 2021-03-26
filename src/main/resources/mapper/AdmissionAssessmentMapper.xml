@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.AdmissionAssessmentMapper">
+  <resultMap id="BaseResultMap" type="com.example.demo.domain.AdmissionAssessment">
+    <!--@mbg.generated-->
+    <!--@Table ADMISSION_ASSESSMENT-->
+    <id column="DOC_NO" jdbcType="VARCHAR" property="docNo" />
+    <result column="INPATIENT_SN" jdbcType="VARCHAR" property="inpatientSn" />
+    <result column="INP_NO" jdbcType="VARCHAR" property="inpNo" />
+    <result column="PATIENT_ID" jdbcType="VARCHAR" property="patientId" />
+    <result column="INTO_ROOM_WAY" jdbcType="VARCHAR" property="intoRoomWay" />
+    <result column="SYMPTOMPTOM" jdbcType="VARCHAR" property="symptomptom" />
+    <result column="WEIGHT" jdbcType="DECIMAL" property="weight" />
+    <result column="TEMPERATURE" jdbcType="DECIMAL" property="temperature" />
+    <result column="BREATH_FREQUENCY" jdbcType="DECIMAL" property="breathFrequency" />
+    <result column="SPHYGMUS" jdbcType="DECIMAL" property="sphygmus" />
+    <result column="SYSTOLIC_PRESSURE" jdbcType="DECIMAL" property="systolicPressure" />
+    <result column="DIASTOLIC_PRESSURE" jdbcType="DECIMAL" property="diastolicPressure" />
+    <result column="INP_REASON" jdbcType="VARCHAR" property="inpReason" />
+    <result column="INP_APPROACH_CODE" jdbcType="VARCHAR" property="inpApproachCode" />
+    <result column="APGAR_GRADE" jdbcType="DECIMAL" property="apgarGrade" />
+    <result column="DIETARY_STATUS_CODE" jdbcType="DECIMAL" property="dietaryStatusCode" />
+    <result column="DEVELOPMENT_DEGREE_CODE" jdbcType="DECIMAL" property="developmentDegreeCode" />
+    <result column="SPIRIT_STATUS_FLAG" jdbcType="VARCHAR" property="spiritStatusFlag" />
+    <result column="SLEEP_STATUS" jdbcType="VARCHAR" property="sleepStatus" />
+    <result column="SPECIAL_STATUS" jdbcType="VARCHAR" property="specialStatus" />
+    <result column="PSYCHOLOGICAL_STATUS" jdbcType="VARCHAR" property="psychologicalStatus" />
+    <result column="NUTRITION_STATUS" jdbcType="DECIMAL" property="nutritionStatus" />
+    <result column="SELF_CARE_STATUS" jdbcType="DECIMAL" property="selfCareStatus" />
+    <result column="ALLERGY_HISTORY" jdbcType="VARCHAR" property="allergyHistory" />
+    <result column="HEALTH_STATUS" jdbcType="VARCHAR" property="healthStatus" />
+    <result column="DISEASE_HISTORY" jdbcType="VARCHAR" property="diseaseHistory" />
+    <result column="INFECT_FLAG" jdbcType="VARCHAR" property="infectFlag" />
+    <result column="INFECT_HISTORY" jdbcType="VARCHAR" property="infectHistory" />
+    <result column="PREVENT_HISTORY" jdbcType="VARCHAR" property="preventHistory" />
+    <result column="OPERATION_HISTORY" jdbcType="VARCHAR" property="operationHistory" />
+    <result column="BLOOD_TRANSFUSION_HISTORY" jdbcType="VARCHAR" property="bloodTransfusionHistory" />
+    <result column="FAMILY_HISTORY" jdbcType="VARCHAR" property="familyHistory" />
+    <result column="SMOKING_FLAG" jdbcType="VARCHAR" property="smokingFlag" />
+    <result column="STOP_SMOKING_DAY" jdbcType="DECIMAL" property="stopSmokingDay" />
+    <result column="SMOKING_STATUS" jdbcType="DECIMAL" property="smokingStatus" />
+    <result column="SMOKING_PER_DAY" jdbcType="DECIMAL" property="smokingPerDay" />
+    <result column="DRINKING_FLAG" jdbcType="VARCHAR" property="drinkingFlag" />
+    <result column="DRINKING_FREQUENCY" jdbcType="VARCHAR" property="drinkingFrequency" />
+    <result column="DAILY_DRINK" jdbcType="DECIMAL" property="dailyDrink" />
+    <result column="INFORM_DOCTOR_FLG" jdbcType="VARCHAR" property="informDoctorFlg" />
+    <result column="NOTIFY_PHYSICIAN_DATETIME" jdbcType="TIMESTAMP" property="notifyPhysicianDatetime" />
+    <result column="ASSESSMENT_DATETIME" jdbcType="TIMESTAMP" property="assessmentDatetime" />
+    <result column="NURSING_SIGN" jdbcType="VARCHAR" property="nursingSign" />
+    <result column="RECEPTION_NURSING_SIGN" jdbcType="VARCHAR" property="receptionNursingSign" />
+    <result column="SIGN_DATETIME" jdbcType="TIMESTAMP" property="signDatetime" />
+    <result column="LAST_MODIFIC_TIME" jdbcType="TIMESTAMP" property="lastModificTime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    DOC_NO, INPATIENT_SN, INP_NO, PATIENT_ID, INTO_ROOM_WAY, SYMPTOMPTOM, WEIGHT, TEMPERATURE, 
+    BREATH_FREQUENCY, SPHYGMUS, SYSTOLIC_PRESSURE, DIASTOLIC_PRESSURE, INP_REASON, INP_APPROACH_CODE, 
+    APGAR_GRADE, DIETARY_STATUS_CODE, DEVELOPMENT_DEGREE_CODE, SPIRIT_STATUS_FLAG, SLEEP_STATUS, 
+    SPECIAL_STATUS, PSYCHOLOGICAL_STATUS, NUTRITION_STATUS, SELF_CARE_STATUS, ALLERGY_HISTORY, 
+    HEALTH_STATUS, DISEASE_HISTORY, INFECT_FLAG, INFECT_HISTORY, PREVENT_HISTORY, OPERATION_HISTORY, 
+    BLOOD_TRANSFUSION_HISTORY, FAMILY_HISTORY, SMOKING_FLAG, STOP_SMOKING_DAY, SMOKING_STATUS, 
+    SMOKING_PER_DAY, DRINKING_FLAG, DRINKING_FREQUENCY, DAILY_DRINK, INFORM_DOCTOR_FLG, 
+    NOTIFY_PHYSICIAN_DATETIME, ASSESSMENT_DATETIME, NURSING_SIGN, RECEPTION_NURSING_SIGN, 
+    SIGN_DATETIME, LAST_MODIFIC_TIME
+  </sql>
+</mapper>
